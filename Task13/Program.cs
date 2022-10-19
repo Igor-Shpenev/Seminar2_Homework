@@ -22,8 +22,8 @@ int ThirdDigit(int num)
 
 int result = ThirdDigit(number);
 if (result == -1)
-    Console.WriteLine($"Third digit number {number} is {result}");
+    Console.WriteLine("There is no third digit here!");
 else
-    Console.WriteLine(result);
-//Console.WriteLine($"Third digit number {number} is {result}");
+    Console.WriteLine($"Third digit number {number} is {result}");
+
 
