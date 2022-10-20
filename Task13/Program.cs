@@ -5,17 +5,17 @@ int number = Convert.ToInt32(Console.ReadLine());
 int ThirdDigit(int num)
 {
     int result;
-    while (num >= 1000)
+    while (num >= 1000)   // уменьшаем заданное число до трехзначного
     {
         num = num / 10;
     }
     if (num >= 100)
     {
-        result = num % 10;
+        result = num % 10;  // отделяем остаток - третью цифру
     }
     else
     {
-        result = -1;
+        result = -1;        // отрицательный результат - третьей цифры нет
     }
     return result;
 }
